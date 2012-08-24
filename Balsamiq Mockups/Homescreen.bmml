@@ -1,0 +1,93 @@
+<mockup version="1.0" skin="sketch" measuredW="294" measuredH="510" mockupW="282" mockupH="510">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::RoundButton" x="63" y="75" w="231" h="360" measuredW="32" measuredH="32" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>0.5</backgroundAlpha>
+        <color>0</color>
+        <shape>rectangle</shape>
+      </controlProperties>
+    </control>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::iPhone" x="12" y="0" w="-1" h="-1" measuredW="282" measuredH="510" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bgPattern>topBlueBottom</bgPattern>
+      </controlProperties>
+    </control>
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::MultilineButton" x="134" y="387" w="42" h="41" measuredW="33" measuredH="41" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>2848996</color>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="3" controlTypeID="com.balsamiq.mockups::TextArea" x="46" y="143" w="214" h="237" measuredW="200" measuredH="140" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%09%09%09Hi%20Kim%2C%0Aup%20next%20today%0A%20%0A19%3A00%20Selinas%20Birthday%0A%20%0A21%3A00%20Paul%20Kalbrenner%20live%0A%20%0Atomorrow%0A%20%0A20%3A00%20digitalism%20live</text>
+      </controlProperties>
+    </control>
+    <control controlID="5" controlTypeID="com.balsamiq.mockups::Image" x="231" y="193" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./assets/facebook.png</src>
+      </controlProperties>
+    </control>
+    <control controlID="6" controlTypeID="com.balsamiq.mockups::Image" x="231" y="227" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./assets/lastfm.png</src>
+      </controlProperties>
+    </control>
+    <control controlID="7" controlTypeID="com.balsamiq.mockups::Image" x="231" y="288" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./assets/skitched-20120824-135046.jpg</src>
+      </controlProperties>
+    </control>
+    <control controlID="8" controlTypeID="com.balsamiq.mockups::SubTitle" x="119" y="104" w="-1" h="-1" measuredW="68" measuredH="33" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Home</text>
+      </controlProperties>
+    </control>
+    <control controlID="9" controlTypeID="com.balsamiq.mockups::Image" x="65" y="46" w="-1" h="-1" measuredW="32" measuredH="21" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./assets/112-group.png</src>
+      </controlProperties>
+    </control>
+    <control controlID="10" controlTypeID="com.balsamiq.mockups::Image" x="53" y="109" w="-1" h="-1" measuredW="24" measuredH="16" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>Discover%26bm%3BDiscover.bmml%26bm%3BDiscover.bmml%26bm%3BDiscover.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%2241%2C109%2C65%2C125%22%20href%3D%22Discover.bmml%22%20alt%3D%22Discover%22%20id%3D%2210%22/%3E</map>
+        <src>./assets/12-eye.png</src>
+      </controlProperties>
+    </control>
+    <control controlID="12" controlTypeID="com.balsamiq.mockups::Image" x="145" y="396" w="22" h="22" measuredW="22" measuredH="22" zOrder="10" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./assets/53-house.png</src>
+      </controlProperties>
+    </control>
+    <control controlID="13" controlTypeID="com.balsamiq.mockups::Image" x="189" y="397" w="24" h="21" measuredW="24" measuredH="21" zOrder="11" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>Favs%26bm%3BFavs.bmml%26bm%3BFavs.bmml%26bm%3BFavs.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22177%2C397%2C201%2C418%22%20href%3D%22Favs.bmml%22%20alt%3D%22Favs%22%20id%3D%2213%22/%3E</map>
+        <src>./assets/29-heart.png</src>
+      </controlProperties>
+    </control>
+    <control controlID="14" controlTypeID="com.balsamiq.mockups::Image" x="44" y="395" w="23" h="25" measuredW="23" measuredH="25" zOrder="12" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>Event%20List%26bm%3BEvent%20List.bmml%26bm%3BEvent%20List.bmml%26bm%3BEvent%20List.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%2232%2C395%2C55%2C420%22%20href%3D%22Event%2520List.bmml%22%20alt%3D%22Event%20List%22%20id%3D%2214%22/%3E</map>
+        <src>./assets/83-calendar.png</src>
+      </controlProperties>
+    </control>
+    <control controlID="15" controlTypeID="com.balsamiq.mockups::Image" x="236" y="394" w="26" h="26" measuredW="26" measuredH="26" zOrder="13" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>Settings%20Page%26bm%3BSettings%20Page.bmml%26bm%3BSettings%20Page.bmml%26bm%3BSettings%20Page.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22224%2C394%2C250%2C420%22%20href%3D%22Settings%2520Page.bmml%22%20alt%3D%22Settings%20Page%22%20id%3D%2215%22/%3E</map>
+        <src>./assets/19-gear.png</src>
+      </controlProperties>
+    </control>
+    <control controlID="16" controlTypeID="com.balsamiq.mockups::Image" x="90" y="397" w="-1" h="-1" measuredW="32" measuredH="21" zOrder="14" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>Friends%26bm%3BFriends.bmml%26bm%3BFriends.bmml%26bm%3BFriends.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%2278%2C397%2C110%2C418%22%20href%3D%22Friends.bmml%22%20alt%3D%22Friends%22%20id%3D%2216%22/%3E</map>
+        <src>./assets/112-group.png</src>
+        <text/>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

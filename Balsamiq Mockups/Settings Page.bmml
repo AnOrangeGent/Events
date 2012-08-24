@@ -1,0 +1,81 @@
+<mockup version="1.0" skin="sketch" measuredW="679" measuredH="510" mockupW="282" mockupH="510">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::iPhone" x="397" y="0" w="-1" h="-1" measuredW="282" measuredH="510" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bgPattern>topBlueBottom</bgPattern>
+      </controlProperties>
+    </control>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::SubTitle" x="491" y="104" w="-1" h="-1" measuredW="94" measuredH="33" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Settings</text>
+      </controlProperties>
+    </control>
+    <control controlID="3" controlTypeID="com.balsamiq.mockups::List" x="430" y="146" w="211" h="236" measuredW="100" measuredH="126" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Home%20location%3A%20Berlin%0AShow%20events%20in%20the%20distance%20of%3A%0A%20%0A100m%09%09%20%20%20%20%09%091000km%0AConnect%20to%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="4" controlTypeID="com.balsamiq.mockups::TextInput" x="467" y="254" w="-1" h="-1" measuredW="113" measuredH="27" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Last.FM%3A%20kim.com</text>
+      </controlProperties>
+    </control>
+    <control controlID="5" controlTypeID="com.balsamiq.mockups::Button" x="492" y="281" w="-1" h="-1" measuredW="63" measuredH="27" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Spotify</text>
+      </controlProperties>
+    </control>
+    <control controlID="6" controlTypeID="com.balsamiq.mockups::Button" x="464" y="308" w="-1" h="-1" measuredW="120" measuredH="27" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Google%20Calendar</text>
+      </controlProperties>
+    </control>
+    <control controlID="7" controlTypeID="com.balsamiq.mockups::Button" x="479" y="335" w="-1" h="-1" measuredW="89" measuredH="27" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Foursquare</text>
+      </controlProperties>
+    </control>
+    <control controlID="8" controlTypeID="com.balsamiq.mockups::VerticalScrollBar" x="629" y="147" w="-1" h="235" measuredW="16" measuredH="100" zOrder="7" locked="false" isInGroup="-1"/>
+    <control controlID="9" controlTypeID="com.balsamiq.mockups::MultilineButton" x="609" y="387" w="42" h="41" measuredW="33" measuredH="41" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>2848996</color>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="10" controlTypeID="com.balsamiq.mockups::Image" x="529" y="396" w="22" h="22" measuredW="22" measuredH="22" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>Homescreen%26bm%3BHomescreen.bmml%26bm%3BHomescreen.bmml%26bm%3BHomescreen.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22132%2C396%2C154%2C418%22%20href%3D%22Homescreen.bmml%22%20alt%3D%22Homescreen%22%20id%3D%2210%22/%3E</map>
+        <src>./assets/53-house.png</src>
+      </controlProperties>
+    </control>
+    <control controlID="11" controlTypeID="com.balsamiq.mockups::Image" x="573" y="397" w="24" h="21" measuredW="24" measuredH="21" zOrder="10" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>Favs%26bm%3BFavs.bmml%26bm%3BFavs.bmml%26bm%3BFavs.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22176%2C397%2C200%2C418%22%20href%3D%22Favs.bmml%22%20alt%3D%22Favs%22%20id%3D%2211%22/%3E</map>
+        <src>./assets/29-heart.png</src>
+      </controlProperties>
+    </control>
+    <control controlID="12" controlTypeID="com.balsamiq.mockups::Image" x="428" y="395" w="23" h="25" measuredW="23" measuredH="25" zOrder="11" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>Event%20List%26bm%3BEvent%20List.bmml%26bm%3BEvent%20List.bmml%26bm%3BEvent%20List.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%2231%2C395%2C54%2C420%22%20href%3D%22Event%2520List.bmml%22%20alt%3D%22Event%20List%22%20id%3D%2212%22/%3E</map>
+        <src>./assets/83-calendar.png</src>
+      </controlProperties>
+    </control>
+    <control controlID="13" controlTypeID="com.balsamiq.mockups::Image" x="620" y="394" w="26" h="26" measuredW="26" measuredH="26" zOrder="12" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./assets/19-gear.png</src>
+      </controlProperties>
+    </control>
+    <control controlID="14" controlTypeID="com.balsamiq.mockups::Image" x="474" y="397" w="-1" h="-1" measuredW="32" measuredH="21" zOrder="13" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>Friends%26bm%3BFriends.bmml%26bm%3BFriends.bmml%26bm%3BFriends.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%2277%2C397%2C109%2C418%22%20href%3D%22Friends.bmml%22%20alt%3D%22Friends%22%20id%3D%2214%22/%3E</map>
+        <src>./assets/112-group.png</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="16" controlTypeID="com.balsamiq.mockups::HSlider" x="443" y="200" w="177" h="-1" measuredW="33" measuredH="11" zOrder="14" locked="false" isInGroup="-1"/>
+  </controls>
+</mockup>
