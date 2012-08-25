@@ -1,193 +1,103 @@
 <!DOCTYPE html> 
 <html> 
 	<head> 
-	<title>Phonegap API</title> 
-	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+	<title>Events</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/themes/mytheme.css"/>
 	<link rel="stylesheet" href="css/jquery.mobile-1.0.1.min.css" />
-	<link rel="stylesheet" href="css/style.css" />
     <script src="js/phonegap-1.4.1.js"></script>
 	<script src="js/jquery-1.7.1.min.js"></script>
 	<script src="js/scripts.js"></script>
 	<script src="js/jquery.mobile-1.0.1.min.js"></script>
 </head> 
-<body> 
+<body>
 
-<div data-role="page">
-	<div data-role="header">
-		<h1>Events App</h1>
+<div data-role="page" data-theme="f">
+	<div data-role="header" data-theme="a">
+		<h1>Events</h1>
 	</div><!-- /header -->
 <div data-role="content">
-<div class="content-primary">	
-<ul data-role="listview" data-inset="true" data-filter="true">	
-	<li><a href="#device">View Gigs</a></li>
-    <li><a href="#camera">Camera</a></li>
-    <li><a href="#connection" class="checkConnection" data-rel="dialog" data-transition="flip">Check Connection</a></li>
-    <li><a href="#device">Device</a></li>
-	<li><a href="#geolocation">Geolocation</a></li>
-    <li><a href="#media" data-rel="dialog" data-transition="flip">Media</a></li>
-</ul><!-- /listview -->	
+<div class="content-primary">
+    <h3 style="text-align:center">Connect via</h3>
+<a href="#gigs" data-role="button" data-theme="f">Facebook</a>
+<br>
+<a href="#gigs" data-role="button" data-theme="f">Spotify</a>
+<br>
+<a href="#gigs" data-role="button" data-theme="f">LastFM</a>
+<br>
+<a href="#gigs" data-role="button" data-theme="f">Foursquare</a>
 	</div><!-- /content -->
 	
 </div><!-- /content-primary -->
 
 </div><!-- /page Home -->
     
-    
-    
-    
-    <div data-role="page" id="accelerometer" data-url="accelerometer">
-        <div data-role="header">
-            <h1>Accelerometer</h1>
+    <div data-role="page" id="gigs" data-url="gigs" data-theme="f">
+        <div data-role="header" data-theme="a">
+            <h1>Current Events</h1>
         </div><!-- /header -->
-        <div data-role="content">
-            <div class="content-primary translate3d">
-                <div data-role="collapsible" data-theme="b" data-content-theme="d">
-                    <h3>Description</h3>
-                    <p>Captures device motion in the x, y, and z direction.</p>
-                </div>
-                
-                <div data-role="fieldcontain">
-                    <label for="accelerationX">Acceleration X:</label>
-                    <input type="text" name="accelerationX" id="accelerationX" value=""  />
-                </div>	
-                
-                <div data-role="fieldcontain">
-                    <label for="accelerationY">Acceleration Y:</label>
-                    <input type="text" name="accelerationY" id="accelerationY" value=""  />
-                </div>	
-                
-                <div data-role="fieldcontain">
-                    <label for="accelerationZ">Acceleration Z:</label>
-                    <input type="text" name="accelerationZ" id="accelerationZ" value=""  />
-                </div>	
-                
-            </div><!-- /content-primary -->
-        </div><!-- /content -->
-    </div><!-- /page Accelerometer -->  
-    
-    
-    <div data-role="page" id="media" data-url="media">
-        <div data-role="header">
-            <h1>Media</h1>
-        </div><!-- /header -->
-        <div data-role="content">
-           
-                <div data-role="collapsible" data-theme="b" data-content-theme="d">
-                    <h3>Description</h3>
-                    <p>object provides the ability to record and play back audio files on a device</p>
-                </div>
-                
-                <a href="#" data-role="button" class="playAudio">Play Audio</a>
-                
-        </div><!-- /content -->
-    </div><!-- /page Media -->
-    
-    
-    <div data-role="page" id="camera" data-url="camera">
-        <div data-role="header">
-            <h1>this is the header</h1>
-            <div height='100px'>tewfe</div>
-        </div><!-- /header -->
-        <div data-role="content">
-            <div class="content-primary">
-                <div data-role="collapsible" data-theme="b" data-content-theme="d">
-                    <h3>Description</h3>
-                    <p>An old airport is the perfect place for your gig!.</p>
-                </div>
-                <div class="captureWrap"><img src="" class="capture" /></div>
-                <div data-role="controlgroup" data-type="horizontal">
-                    <a class="takePhoto" data-role="button">Take Photo</a>
-                    <a class="fromLibrary" data-role="button">From Library</a>
-                </div>
-            </div><!-- /content-primary -->
-        </div><!-- /content -->
-    </div><!-- /page Camera -->
-    
-    
-    
-    
-    
-    
-<div data-role="page" id="connection" data-url="connection">
-    <div data-role="header">
-        <h1>Connection</h1>
-    </div><!-- /header -->
-    <div data-role="content">
-        <p><!-- connection var injected here --></p>
-       <a href="#" data-role="button"  data-rel="back">Done</a>
-    </div><!-- /content -->
-</div><!-- /page Connection -->  
-    
-    
-    
-    
-    <div data-role="page" id="device" data-url="device">
-        <div data-role="header">
-            <h1>Device</h1>
-        </div><!-- /header -->
-        <div data-role="content">
-            <div class="content-primary">
-                <div data-role="collapsible" data-theme="b" data-content-theme="d">
-                    <h3>Device</h3>
-                    <p>Gather device specific information.</p>
-                </div>
         
-                <div data-role="fieldcontain">
-                    <label for="deviceName">Device Name:</label>
-                    <input type="text" name="deviceName" id="deviceName" value=""  />
-                </div>	
-                
-                <div data-role="fieldcontain">
-                    <label for="devicePlatform">Device Platform:</label>
-                    <input type="text" name="devicePlatform" id="devicePlatform" value=""  />
-                </div>	
-                
-                <div data-role="fieldcontain">
-                    <label for="deviceUUID">Device UUID:</label>
-                    <input type="text" name="deviceUUID" id="deviceUUID" value=""  />
-                </div>	
-                
-                <div data-role="fieldcontain">
-                    <label for="deviceVersion">Device Version:</label>
-                    <input type="text" name="deviceVersion" id="deviceVersion" value=""  />
-                </div>	
-                
-            </div><!-- /content-primary -->
-        </div><!-- /content -->
-    </div><!-- /page Device -->  
-    
-    
-    
-    <div data-role="page" id="geolocation" data-url="geolocation">
-        <div data-role="header">
-            <h1>Geolocation</h1>
-        </div><!-- /header -->
+        <div data-role="footer" data-position="fixed" data-theme="f">
+            <div data-role="navbar" data-theme="f" data-iconpos="top">
+                <ul>
+                    <li><a href="#" data-role="button" data-icon="grid">Calendar</a></li>
+                    <li><a href="#" data-role="button" data-icon="search">Social</a></li>
+                    <li><a href="#" data-role="button" data-icon="home">Home</a></li>
+                    <li><a href="#"></a></li>
+                </ul>
+            </div><!--navbar-->
+        </div><!--footer-->
+        
         <div data-role="content">
             <div class="content-primary">
-                <div data-role="collapsible" data-theme="b" data-content-theme="d">
-                    <h3>Description</h3>
-                    <p>The geolocation object provides access to the device's GPS sensor.</p>
-                </div>
                 
-                <div data-role="fieldcontain">
-                    <label for="longitude">Longitude:</label>
-                    <input type="text" name="longitude" id="longitude" value=""  />
-                </div>	
+                <ul data-role="listview" data-theme="a" data-divider-theme="d">
+                    <li data-role="list-divider">Today <span class="ui-li-count">2</span></li>
+                    <li><a href="index.html">
+                        
+                        <p>20:00-23:00</p>
+                        <h3><strong>Rockwell</strong></h3>
+
+                        <p class="ui-li-aside"><strong>600 m</strong></p>
+                        
+                    </a></li>
+                    <li><a href="index.html">
+                        
+                        <p>23:00-02:00</p>
+                        <h3><strong>Tupac reanimated</strong></h3>
+                        
+                        <p class="ui-li-aside"><strong>2 km</strong></p>
+                        
+                    </a></li>
+                    <li data-role="list-divider">Tomorrow<span class="ui-li-count">1</span></li>
+                    <li><a href="index.html">
+                        <p>00:00-02:00</p>
+                        <h3><strong>Spectrasoul</strong></h3>
+                        
+                        <p class="ui-li-aside"><strong>10 km</strong></p>
+                    </a></li>
+                    <li data-role="list-divider">Tuesday, August 28, 2012 <span class="ui-li-count">3</span></li>
+                    <li><a href="index.html">
+                        <p>18:00-0:00</p>
+                        <h3><strong>Generic Concert 123</strong></h3>
+                        
+                        <p class="ui-li-aside"><strong>1 km</strong></p>
+                    </a></li>
+                    <li><a href="index.html">
+                        <p>00:00-??:??</p>
+                        <h3><strong>End of the World</strong></h3>
+                        
+                        <p class="ui-li-aside"><strong>1/0 km</strong></p>
+                    </a></li>
+                               </div><!--/content-primary -->		
+            
+            <div class="content-secondary">
                 
-                <div data-role="fieldcontain">
-                    <label for="latitude">Latitude:</label>
-                    <input type="text" name="latitude" id="latitude" value=""  />
-                </div>	
-                
-                <div data-role="fieldcontain">
-                    <label for="speed">Speed:</label>
-                    <input type="text" name="speed" id="speed" value=""  />
-                </div>	
-                
-                               
-            </div><!-- /content-primary -->
+                <div data-role="collapsible" data-collapsed="true" data-theme="f" data-content-theme="f">
         </div><!-- /content -->
-    </div><!-- /page Geolocation -->  
+    </div><!-- /page Gigs -->  
+    
+     
     
 
     
