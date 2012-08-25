@@ -1,0 +1,72 @@
+<mockup version="1.0" skin="sketch" measuredW="342" measuredH="530" mockupW="282" mockupH="510">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::iPhone" x="60" y="20" w="-1" h="-1" measuredW="282" measuredH="510" zOrder="0" locked="false" isInGroup="-1"/>
+    <control controlID="17" controlTypeID="__group__" x="87" y="118" w="228" h="335" measuredW="228" measuredH="335" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <controlName>iOS%20Notification%20Center</controlName>
+      </controlProperties>
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::DataGrid" x="0" y="0" w="225" h="335" measuredW="272" measuredH="337" zOrder="0" locked="false" isInGroup="17">
+          <controlProperties>
+            <alternateRowColor>12303802</alternateRowColor>
+            <borderStyle>none</borderStyle>
+            <color>12303802</color>
+            <hasHeader>false</hasHeader>
+            <hLines>true</hLines>
+            <selectedIndex>-1</selectedIndex>
+            <size>11</size>
+            <text>%2C%20*Calendar*%2C%20%0A%2C%20Project%20X%2C%20Today%0A%2C%20Project%20Y%2C%2010%3A00%20AM%0A%2C%20*Awesome%20Photo*%2C%20%0A%28x%29%2C%20Awesome%20Photo%5CrJoe%20said%3A%20%22I%20love%20it%21%22%2C%205%20min%20ago%20%0A%28x%29%2C%20Awesome%20Photo%5CrJane%20liked%20your%20post%2C%205%20min%20ago%20%0A%28x%29%2C%20Awesome%20Photo%5CrSue%20said%3A%20%22OMG.%20UR%20kidding%20me.%22%2C%205%20min%20ago%20%0A%28x%29%2C%20Awesome%20Photo%5CrSally%20said%3A%20%22Nice%20job%21%22%2C%205%20min%20ago%20%0A%2C%20*MadLibs*%2C%20%0A%28X%29%2C%20MadLibs%5CrYour%20turn%20with%20WordMasta%2C%201%20h%20ago%0A%20%0A%7B8L%2C%200L%2C%2010R%7D</text>
+            <vLines>false</vLines>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::Icon" x="7" y="9" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="1" locked="false" isInGroup="17">
+          <controlProperties>
+            <icon>TableIcon%7Cxsmall</icon>
+          </controlProperties>
+        </control>
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::Icon" x="5" y="99" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="2" locked="false" isInGroup="17">
+          <controlProperties>
+            <icon>CameraIcon%7Cxsmall</icon>
+          </controlProperties>
+        </control>
+        <control controlID="3" controlTypeID="com.balsamiq.mockups::Canvas" x="0" y="0" w="228" h="33" measuredW="100" measuredH="70" zOrder="3" locked="false" isInGroup="17">
+          <controlProperties>
+            <backgroundAlpha>0.25</backgroundAlpha>
+            <borderStyle>none</borderStyle>
+            <color>0</color>
+          </controlProperties>
+        </control>
+        <control controlID="4" controlTypeID="com.balsamiq.mockups::Icon" x="203" y="99" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="4" locked="false" isInGroup="17">
+          <controlProperties>
+            <icon>CircledXIcon%7Cxsmall</icon>
+          </controlProperties>
+        </control>
+        <control controlID="5" controlTypeID="com.balsamiq.mockups::Canvas" x="0" y="91" w="228" h="33" measuredW="100" measuredH="70" zOrder="5" locked="false" isInGroup="17">
+          <controlProperties>
+            <backgroundAlpha>0.25</backgroundAlpha>
+            <borderStyle>none</borderStyle>
+            <color>0</color>
+          </controlProperties>
+        </control>
+        <control controlID="6" controlTypeID="com.balsamiq.mockups::Icon" x="5" y="251" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="6" locked="false" isInGroup="17">
+          <controlProperties>
+            <icon>ShapesIcon%7Cxsmall</icon>
+          </controlProperties>
+        </control>
+        <control controlID="7" controlTypeID="com.balsamiq.mockups::Icon" x="203" y="251" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="7" locked="false" isInGroup="17">
+          <controlProperties>
+            <icon>CircledXIcon%7Cxsmall</icon>
+          </controlProperties>
+        </control>
+        <control controlID="8" controlTypeID="com.balsamiq.mockups::Canvas" x="0" y="241" w="228" h="33" measuredW="100" measuredH="70" zOrder="8" locked="false" isInGroup="17">
+          <controlProperties>
+            <backgroundAlpha>0.25</backgroundAlpha>
+            <borderStyle>none</borderStyle>
+            <color>0</color>
+          </controlProperties>
+        </control>
+        <control controlID="9" controlTypeID="com.balsamiq.mockups::VSplitter" x="98" y="313" w="33" h="-1" measuredW="100" measuredH="12" zOrder="9" locked="false" isInGroup="17"/>
+      </groupChildrenDescriptors>
+    </control>
+  </controls>
+</mockup>
