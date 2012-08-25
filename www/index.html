@@ -31,30 +31,57 @@
 </div><!-- /content-primary -->
 
 </div><!-- /page Home -->
+
+<div data-role="page" id="map" data-url="map" data-theme="f">
+    <div data-role="header" data-theme="a">
+            <h1>Gig Map</h1>
+    </div><!-- /header -->
+    <div data-role="footer" data-theme="f" data-position="fixed">
+        <div data-role="navbar" data-theme="f" data-iconpos="top">
+            <ul>
+                <li><a href="#" data-role="button" data-icon="grid">Calendar</a></li>
+                <li><a href="#social" data-role="button" data-icon="search">Social</a></li>
+                <li><a href="#home" data-role="button" data-icon="home">Home</a></li>
+                <li><a href="#settings" data-role="button" data-icon="gear">Settings</a></li>
+            </ul>
+        </div><!--navbar-->
+    </div><!--footer-->
+    
+    <!--top two buttons-->
+    <div data-role="controlgroup" data-type="horizontal" style="text-align:center">
+        <a href="#" data-role="button">List</a>
+        <a href="#map" data-role="button">Map</a>
+    </div>
+    <!--/top two buttons-->
+
+
+</div><!--/page map-->
     
     <div data-role="page" id="gigs" data-url="gigs" data-theme="f">
         <div data-role="header" data-theme="a">
             <h1>Current Events</h1>
         </div><!-- /header -->
         
-        <!--top two buttons-->
-        <div data-role="controlgroup" data-type="horizontal" style="text-align:center">
-            <a href="#" data-role="button">List</a>
-            <a href="#" data-role="button">Map</a>
-        </div>
-        <!--/top two buttons-->
-        
-        <div data-role="footer" data-position="fixed" data-theme="f">
+        <div data-role="footer" data-theme="f" data-position="fixed">
             <div data-role="navbar" data-theme="f" data-iconpos="top">
                 <ul>
                     <li><a href="#" data-role="button" data-icon="grid">Calendar</a></li>
-                    <li><a href="#" data-role="button" data-icon="search">Social</a></li>
-                    <li><a href="#" data-role="button" data-icon="home">Home</a></li>
-                    <li><a href="#" data-role="button" data-icon="gear">Settings</a></li>
+                    <li><a href="#social" data-role="button" data-icon="search">Social</a></li>
+                    <li><a href="#home" data-role="button" data-icon="home">Home</a></li>
+                    <li><a href="#settings" data-role="button" data-icon="gear">Settings</a></li>
                 </ul>
             </div><!--navbar-->
         </div><!--footer-->
+
         
+        <!--top two buttons-->
+        <div data-role="controlgroup" data-type="horizontal" style="text-align:center">
+            <a href="#" data-role="button">List</a>
+            <a href="#map" data-role="button">Map</a>
+        </div>
+        <!--/top two buttons-->
+        
+               
         <div data-role="content">
             <div class="content-primary">
                 
@@ -102,10 +129,7 @@
                 
                 <div data-role="collapsible" data-collapsed="true" data-theme="f" data-content-theme="f">
         </div><!-- /content -->
-    </div><!-- /page Gigs -->  
-    
-     
-    
+    </div><!-- /page Gigs -->
 
     
 </body>
