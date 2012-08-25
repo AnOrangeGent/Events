@@ -1,0 +1,143 @@
+<mockup version="1.0" skin="sketch" measuredW="806" measuredH="535" mockupW="603" mockupH="510">
+  <controls>
+    <control controlID="46" controlTypeID="__group__" x="203" y="25" w="282" h="510" measuredW="282" measuredH="510" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <controlName>iPhone%20Safari</controlName>
+      </controlProperties>
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::iPhone" x="0" y="0" w="-1" h="-1" measuredW="282" measuredH="510" zOrder="0" locked="false" isInGroup="46">
+          <controlProperties>
+            <bgPattern>topBlueBottom</bgPattern>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="__group__" x="38" y="397" w="205" h="24" measuredW="205" measuredH="24" zOrder="1" locked="false" isInGroup="46">
+          <groupChildrenDescriptors>
+            <control controlID="34" controlTypeID="com.balsamiq.mockups::Icon" x="0" y="4" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="0" locked="false" isInGroup="1">
+              <controlProperties>
+                <color>16777215</color>
+                <icon>LeftFillTriangleIcon%7Cxsmall</icon>
+              </controlProperties>
+            </control>
+            <control controlID="35" controlTypeID="com.balsamiq.mockups::Icon" x="45" y="4" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="1" locked="false" isInGroup="1">
+              <controlProperties>
+                <color>8421504</color>
+                <icon>RightFillTriangleIcon%7Cxsmall</icon>
+              </controlProperties>
+            </control>
+            <control controlID="36" controlTypeID="com.balsamiq.mockups::Icon" x="91" y="4" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="2" locked="false" isInGroup="1">
+              <controlProperties>
+                <color>16777215</color>
+                <icon>PlusBigIcon%7Cxsmall</icon>
+              </controlProperties>
+            </control>
+            <control controlID="37" controlTypeID="com.balsamiq.mockups::Icon" x="136" y="0" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="3" locked="false" isInGroup="1">
+              <controlProperties>
+                <color>16777215</color>
+                <icon>BookIcon%7Csmall</icon>
+              </controlProperties>
+            </control>
+            <control controlID="38" controlTypeID="com.balsamiq.mockups::Icon" x="181" y="0" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="4" locked="false" isInGroup="1">
+              <controlProperties>
+                <color>16777215</color>
+                <icon>PagesIcon%7Csmall</icon>
+              </controlProperties>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+        <control controlID="2" controlTypeID="__group__" x="26" y="96" w="230" h="42" measuredW="230" measuredH="42" zOrder="2" locked="false" isInGroup="46">
+          <groupChildrenDescriptors>
+            <control controlID="39" controlTypeID="com.balsamiq.mockups::TextInput" x="6" y="17" w="126" h="-1" measuredW="83" measuredH="24" zOrder="0" locked="false" isInGroup="2">
+              <controlProperties>
+                <size>11</size>
+                <text>http%3A//www...</text>
+              </controlProperties>
+            </control>
+            <control controlID="40" controlTypeID="com.balsamiq.mockups::SearchBox" x="134" y="17" w="89" h="-1" measuredW="64" measuredH="25" zOrder="1" locked="false" isInGroup="2">
+              <controlProperties>
+                <text>Google</text>
+              </controlProperties>
+            </control>
+            <control controlID="41" controlTypeID="com.balsamiq.mockups::Label" x="0" y="0" w="230" h="16" measuredW="109" measuredH="20" zOrder="2" locked="false" isInGroup="2">
+              <controlProperties>
+                <align>center</align>
+                <size>11</size>
+                <text>Page%20title%20goes%20here</text>
+              </controlProperties>
+            </control>
+            <control controlID="42" controlTypeID="com.balsamiq.mockups::Icon" x="111" y="21" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="3" locked="false" isInGroup="2">
+              <controlProperties>
+                <icon>ReloadIcon%7Cxsmall</icon>
+              </controlProperties>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="47" controlTypeID="__group__" x="524" y="25" w="282" h="510" measuredW="282" measuredH="510" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <controlName>iPhone%20Safari%20Pages</controlName>
+      </controlProperties>
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::iPhone" x="0" y="0" w="-1" h="-1" measuredW="282" measuredH="510" zOrder="0" locked="false" isInGroup="47">
+          <controlProperties>
+            <bgPattern>allWhite</bgPattern>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="__group__" x="27" y="392" w="226" h="35" measuredW="226" measuredH="35" zOrder="1" locked="false" isInGroup="47">
+          <groupChildrenDescriptors>
+            <control controlID="10" controlTypeID="com.balsamiq.mockups::Canvas" x="0" y="0" w="226" h="35" measuredW="100" measuredH="70" zOrder="0" locked="false" isInGroup="1">
+              <controlProperties>
+                <borderStyle>none</borderStyle>
+                <color>8554646</color>
+              </controlProperties>
+            </control>
+            <control controlID="16" controlTypeID="com.balsamiq.mockups::PointyButton" x="5" y="5" w="-1" h="-1" measuredW="80" measuredH="27" zOrder="1" locked="false" isInGroup="1">
+              <controlProperties>
+                <color>5263440</color>
+                <direction>center</direction>
+                <text>New%20Page</text>
+              </controlProperties>
+            </control>
+            <control controlID="17" controlTypeID="com.balsamiq.mockups::PointyButton" x="171" y="4" w="-1" h="-1" measuredW="50" measuredH="27" zOrder="2" locked="false" isInGroup="1">
+              <controlProperties>
+                <color>2848996</color>
+                <direction>center</direction>
+                <text>Done</text>
+              </controlProperties>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::Label" x="33" y="105" w="214" h="23" measuredW="132" measuredH="23" zOrder="2" locked="false" isInGroup="47">
+          <controlProperties>
+            <align>center</align>
+            <text>Page%20Title%20Goes%20Here</text>
+          </controlProperties>
+        </control>
+        <control controlID="3" controlTypeID="com.balsamiq.mockups::Label" x="65" y="128" w="-1" h="-1" measuredW="147" measuredH="23" zOrder="3" locked="false" isInGroup="47">
+          <controlProperties>
+            <color>8421504</color>
+            <text>http%3A//page.url.com/....</text>
+          </controlProperties>
+        </control>
+        <control controlID="4" controlTypeID="__group__" x="27" y="157" w="226" h="221" measuredW="226" measuredH="221" zOrder="4" locked="false" isInGroup="47">
+          <groupChildrenDescriptors>
+            <control controlID="26" controlTypeID="com.balsamiq.mockups::Canvas" x="47" y="9" w="134" h="188" measuredW="100" measuredH="70" zOrder="0" locked="false" isInGroup="4"/>
+            <control controlID="27" controlTypeID="com.balsamiq.mockups::Icon" x="38" y="0" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="1" locked="false" isInGroup="4">
+              <controlProperties>
+                <color>16711680</color>
+                <icon>CircledXIcon%7Csmall</icon>
+              </controlProperties>
+            </control>
+            <control controlID="28" controlTypeID="com.balsamiq.mockups::Canvas" x="205" y="9" w="21" h="188" measuredW="100" measuredH="70" zOrder="2" locked="false" isInGroup="4"/>
+            <control controlID="29" controlTypeID="com.balsamiq.mockups::Canvas" x="0" y="9" w="21" h="188" measuredW="100" measuredH="70" zOrder="3" locked="false" isInGroup="4"/>
+            <control controlID="30" controlTypeID="com.balsamiq.mockups::Icon" x="102" y="197" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="4" locked="false" isInGroup="4">
+              <controlProperties>
+                <icon>EllipsisIcon%7Csmall</icon>
+              </controlProperties>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+  </controls>
+</mockup>

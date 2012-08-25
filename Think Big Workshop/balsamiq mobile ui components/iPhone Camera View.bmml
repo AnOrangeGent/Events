@@ -1,0 +1,99 @@
+<mockup version="1.0" skin="sketch" measuredW="349" measuredH="575" mockupW="282" mockupH="510">
+  <controls>
+    <control controlID="9" controlTypeID="__group__" x="67" y="65" w="282" h="510" measuredW="282" measuredH="510" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <controlName>iPhone%20Camera%20View</controlName>
+      </controlProperties>
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::iPhone" x="0" y="0" w="-1" h="-1" measuredW="282" measuredH="510" zOrder="0" locked="false" isInGroup="9">
+          <controlProperties>
+            <bgPattern>allBlack</bgPattern>
+            <topBar>false</topBar>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::Image" x="30" y="88" w="220" h="334" measuredW="77" measuredH="79" zOrder="1" locked="false" isInGroup="9">
+          <controlProperties>
+            <filter>true</filter>
+          </controlProperties>
+        </control>
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::PointyButton" x="30" y="99" w="54" h="-1" measuredW="62" measuredH="27" zOrder="2" locked="false" isInGroup="9">
+          <controlProperties>
+            <color>14540253</color>
+            <direction>center</direction>
+            <icon>LightningIcon%7Cxsmall</icon>
+            <size>11</size>
+            <text>Auto</text>
+          </controlProperties>
+        </control>
+        <control controlID="3" controlTypeID="com.balsamiq.mockups::PointyButton" x="111" y="98" w="58" h="-1" measuredW="58" measuredH="27" zOrder="3" locked="false" isInGroup="9">
+          <controlProperties>
+            <color>13421772</color>
+            <direction>center</direction>
+            <size>11</size>
+            <text>Options</text>
+          </controlProperties>
+        </control>
+        <control controlID="4" controlTypeID="com.balsamiq.mockups::PointyButton" x="208" y="98" w="43" h="-1" measuredW="37" measuredH="27" zOrder="4" locked="false" isInGroup="9">
+          <controlProperties>
+            <color>13421772</color>
+            <direction>center</direction>
+            <icon>CameraIcon%7Cxsmall</icon>
+            <size>11</size>
+            <text/>
+          </controlProperties>
+        </control>
+        <control controlID="5" controlTypeID="__group__" x="28" y="391" w="229" h="36" measuredW="229" measuredH="36" zOrder="5" locked="false" isInGroup="9">
+          <groupChildrenDescriptors>
+            <control controlID="1" controlTypeID="com.balsamiq.mockups::Canvas" x="2" y="0" w="227" h="36" measuredW="100" measuredH="70" zOrder="0" locked="false" isInGroup="5">
+              <controlProperties>
+                <color>13421772</color>
+              </controlProperties>
+            </control>
+            <control controlID="2" controlTypeID="com.balsamiq.mockups::Canvas" x="0" y="2" w="227" h="17" measuredW="100" measuredH="70" zOrder="1" locked="false" isInGroup="5">
+              <controlProperties>
+                <backgroundAlpha>0.25</backgroundAlpha>
+                <borderStyle>none</borderStyle>
+                <color>15658734</color>
+              </controlProperties>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+        <control controlID="6" controlTypeID="com.balsamiq.mockups::PointyButton" x="118" y="395" w="43" h="-1" measuredW="37" measuredH="27" zOrder="6" locked="false" isInGroup="9">
+          <controlProperties>
+            <color>13421772</color>
+            <direction>center</direction>
+            <icon>CameraIcon%7Cxsmall</icon>
+            <size>11</size>
+            <text/>
+          </controlProperties>
+        </control>
+        <control controlID="7" controlTypeID="__group__" x="206" y="394" w="45" h="29" measuredW="45" measuredH="29" zOrder="7" locked="false" isInGroup="9">
+          <groupChildrenDescriptors>
+            <control controlID="0" controlTypeID="com.balsamiq.mockups::Icon" x="29" y="2" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="0" locked="false" isInGroup="7">
+              <controlProperties>
+                <icon>VideoCameraIcon%7Cxsmall</icon>
+              </controlProperties>
+            </control>
+            <control controlID="1" controlTypeID="com.balsamiq.mockups::ProgressBar" x="0" y="16" w="45" h="13" measuredW="100" measuredH="20" zOrder="1" locked="false" isInGroup="7">
+              <controlProperties>
+                <indeterminate>false</indeterminate>
+                <scrollBarValue>44</scrollBarValue>
+              </controlProperties>
+            </control>
+            <control controlID="2" controlTypeID="com.balsamiq.mockups::Icon" x="0" y="0" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="2" locked="false" isInGroup="7">
+              <controlProperties>
+                <icon>CameraIcon%7Cxsmall</icon>
+              </controlProperties>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+        <control controlID="8" controlTypeID="com.balsamiq.mockups::Icon" x="39" y="396" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="8" locked="false" isInGroup="9">
+          <controlProperties>
+            <borderStyle>square</borderStyle>
+            <icon>YIMIcon%7Csmall</icon>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+  </controls>
+</mockup>
